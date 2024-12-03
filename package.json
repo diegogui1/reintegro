@@ -25,6 +25,9 @@
       "native_hana_associations": false
     },
     "requires": {
+     "[production]": {
+        "auth": "dummy"
+      },
       "destinations": true,
       "db": {
         "kind": "sqlite",
